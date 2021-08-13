@@ -1,0 +1,44 @@
+{
+  "name": "pollen-solutions/cookie",
+  "description": "Pollen Solutions - Cookie Component - HTTP Request cookie manager",
+  "homepage": "https://www.presstify.com/pollen-solutions/cookie/",
+  "keywords": [
+    "pollen-solutions",
+    "component",
+    "cookie"
+  ],
+  "time": "2021-08-13",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jordy Manner",
+      "email": "jordy@presstify.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "pollen-solutions/encryption": "^1.0",
+    "pollen-solutions/http": "^1.0",
+    "pollen-solutions/support": "^1.0",
+    "pollen-solutions/validation": "^1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0",
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pollen\\Cookie\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Pollen\\Cookie\\Test\\": "tests"
+    }
+  },
+  "suggest": {
+    "pollen-solutions/container" : "Pollen Solutions - Container Component - PSR-11 ready Dependencies Injection Container.",
+    "pollen-solutions/routing" : "Pollen Solutions - Routing Component - HTTP request mapping and HTTP response resolution."
+  },
+  "minimum-stability": "dev"
+}
